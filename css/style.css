@@ -5,15 +5,16 @@ body{
     background-image: url("../img/landing2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 800px;
-    height: 900px;
+    background-position: center;
+    width: 650px;
+    height: 100vh;
 }
 
 
 nav {
     background-color:black;
     margin:0;
-    width:200%;
+    width:207%;
     
     
 }
@@ -83,6 +84,7 @@ a:active{
     margin-top:50px auto;
     padding: 20px;
     background: linear-gradient(aqua, grey);
+    border: 3px solid grey;
     
     
 }
@@ -119,3 +121,12 @@ a:active{
     background-color: black;
     color: white;
 }
+
+footer{
+    width: 100%;
+    margin-left:80%;
+    margin-top: 70px;
+    text-align: center;
+    color: grey;
+}
+

@@ -32,20 +32,20 @@
             </div>
     <section class="container">
         <form>
-            <input type="text" id="fname" placeholder="First Name" required/>
-            <input type="text" id="lname" placeholder="Last Name" required/><br/>
+            <input type="text" id="fname" placeholder="First Name" required aria-required="true"/>
+            <input type="text" id="lname" placeholder="Last Name" required aria-required="true"/><br/>
             <div class="contactinfo">
                 <input type="text"placeholder="Address"  id="address" /> <br />
                 <input type="number"placeholder="Phone number"  id="phone" /> <br />
-                <input type="text" placeholder="City" id="city"/> <br />
+                <input type="text" placeholder="City" id="city"required aria-required="true"/> <br />
             </div>
             <div class="email">
-                <input type="email"placeholder="Enter Email Address" required/> <br />
-                <input type="password"/placeholder="*******" required> <br />
-                <input type="password"/placeholder="Repeat password" required> <br />
+                <input type="email"placeholder="Enter Email Address" required aria-required="true"/> <br />
+                <input type="password"/placeholder="*******" required aria-required="true"> <br />
+                <input type="password"/placeholder="Repeat password" required aria-required="true"> <br />
             </div>
             <label for="file">Upload Your Drivers' Licence</label><br/>
-            <input type="file" required> <br />
+            <input type="file" required aria-required="true"> <br />
             <button type="submit">Cancel</button>
             <button type="submit">Submit</button>
         </form>
