@@ -156,9 +156,10 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus  {
     }
     .container #heading{
         padding: 1px;
-}
-nav {
-    width: 207%;
+    }
+    nav {
+        width: 207%;
+    }
 }
 
 @media screen and (max-width:640px){
@@ -167,22 +168,22 @@ nav {
     }
     .container #heading{
         padding: 1px;
-}
+    }
 
-nav {
-    width: 100%
-}
-nav ul li {
-    width: 20%
-}
+    nav {
+        width: 100%
+    }
+    nav ul li {
+        width: 20%
+    }
 
-.subserve {
-    width:100%;
+    .subserve {
+        width:100%;
+    }
+    .subserve li{
+        width:50%;
+    }
 }
-.subserve li{
-    width:50%;
-}
-
 @media screen and (max-width:320px){
     .container{
         width:400px;
@@ -190,18 +191,20 @@ nav ul li {
     }
     .container #heading{
         padding: 1px;
-}
+    }
 
-nav {
-    width: 100%
-}
-nav ul li {
-    width: 40%;
-}
+    nav {
+        width: 100%
+    }
+    nav ul li {
+        width: 40%;
+    }
 
-.subserve {
-    width:100%;
-}
-.subserve li{
-    width:50%;
+    .subserve {
+        width:100%;
+    }
+    .subserve li{
+        width:50%;
+    }
+
 }
