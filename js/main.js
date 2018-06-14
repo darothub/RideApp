@@ -5,7 +5,7 @@ var attempt = 3
 const validate=()=>{
         
         if(user.value =="darot" && password.value == "Youngster1"){
-            window.open('http://127.0.0.1:5500/RideApp/rideoffer.html')
+            window.open('http://127.0.0.1:5500/RideApp/profile.html')
             return false
             
         }
