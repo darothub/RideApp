@@ -9,10 +9,51 @@ body{
     height: 10px;
     background-color: grey;
     border-bottom: 3px solid aqua;
-     z-index: 1;
+    z-index: 1;
 }
-#logo{
-    background-color: white;
-    float:left;
-    z-index: 4;
+
+
+nav{
+    display: block;
+    margin:0px;
+    float: left;
+    width: 300px;
+    height: 900px;
+    
+    line-height: 4em;
+}
+
+nav ul {
+    margin: 0px;
+    
+}
+.firstorder{
+    background-color:white;
+    line-height: 3em;
+}
+.secondorder{
+    background-color:grey;
+    display: block;
+}
+
+
+
+nav ul li{
+    display:block;
+    list-style-type: none;
+    margin-left: 0px
+}
+
+
+
+ .secondorder:hover{
+    background-color:white;
+    display: inline-block;
+
+}
+
+.secondorder a:hover{
+    background-color: aqua;
+    opacity: .7;
+    display: block;
 }
