@@ -157,6 +157,9 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus  {
     .container #heading{
         padding: 1px;
 }
+nav {
+    width: 207%;
+}
 
 @media screen and (max-width:640px){
     .container{
@@ -166,11 +169,39 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus  {
         padding: 1px;
 }
 
+nav {
+    width: 100%
+}
+nav ul li {
+    width: 20%
+}
+
+.subserve {
+    width:100%;
+}
+.subserve li{
+    width:50%;
+}
+
 @media screen and (max-width:320px){
     .container{
         width:400px;
-        height:6410px;
+        height:641px;
     }
     .container #heading{
         padding: 1px;
+}
+
+nav {
+    width: 100%
+}
+nav ul li {
+    width: 40%;
+}
+
+.subserve {
+    width:100%;
+}
+.subserve li{
+    width:50%;
 }
