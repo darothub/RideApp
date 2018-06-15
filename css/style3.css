@@ -88,6 +88,13 @@ nav{
     color:white;
 }
 
+.secondorder span{
+    display:block;
+    position: absolute;
+    top:0px;
+    left:280px;
+}
+
 .alloffers{
     position: relative;
     display: inline-block;
