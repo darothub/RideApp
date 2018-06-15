@@ -101,6 +101,14 @@ nav{
     
 }
 
+.alloffers span{
+    display: block;
+    position: absolute;
+    left: 50px;
+}
+
+ 
+
 .thirdorder{
     display: none;
     position: absolute;
