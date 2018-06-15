@@ -1,7 +1,9 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: rgba(12, 12, 14, .3)
+    background: rgba(12, 12, 14, .3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 
 
@@ -41,6 +43,22 @@ nav{
     margin-top: 0px;
     list-style-type: none;
     color:white;
+}
+.firstorder:hover .bg{
+    display:block;
+}
+.home{
+    position: absolute;
+    right: 30px;
+    line-height: 3em;
+}
+
+.home>a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.home a:hover{
+    color: aliceblue;
 }
 
 .secondorder{
@@ -109,7 +127,4 @@ nav{
     font-weight: bold;
 }
 
-.firstorder:hover .bg{
-    display:block;
-}
 
