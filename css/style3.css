@@ -18,20 +18,36 @@ nav{
 
 .firstorder{
     background-color: white;
-    float: right;
     height: 50px;
     width:100%;
+    position: relative;
     
 }
+.bg{
+    display:none;
+    position: absolute;
+    background-color: greenyellow;
+    width: 100%;
+    right: 0px;
+    top:50px;
+    height: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
 .firstorder li{
-    position: relative;
+    
     float: right;
-    margin-top: -15px;
+    margin-top: 0px;
     list-style-type: none;
     color:white;
 }
 
 .secondorder{
+    position: absolute;
+    top:0px;
+    width:85%;
+    height: 50px;
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:white;
@@ -39,16 +55,17 @@ nav{
    
 }
 
-.secondorder li{
+.secondorder>li{
     display: inline;
     list-style-type: none;
-    margin:20px;
+    margin:20px 0 20px 200px;
     padding:20px;
-    line-height: 3em;
+    line-height: 2em;
     
 }
 
 .secondorder li a {
+    
     text-decoration: none;
     color:white;
 }
@@ -62,15 +79,20 @@ nav{
 .thirdorder{
     display: none;
     position: absolute;
-    top: 60px;
-    line-height: 1em;
-    min-width: 15em;
-    background-color:white;
-    box-shadow: 0px 8px 16px 0px rgba(177, 170, 170, 0.2);
+    top: 50px;
+    min-width:220px;
+    background-color:black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
-.thirdorder a {
+.thirdorder>li{
+    line-height: 2em;
+    list-style-type:none;
+    
+}
+
+.thirdorder>li> a {
     color:black;
     padding: 5px;
     text-decoration: none;
@@ -79,11 +101,15 @@ nav{
 
 .thirdorder a:hover {
     background-color: grey;
-    display:block;
-    color: black;
+   
 }
 
 .alloffers:hover .thirdorder{
     display: inline;
     font-weight: bold;
 }
+
+.firstorder:hover .bg{
+    display:block;
+}
+
