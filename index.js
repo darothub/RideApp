@@ -6,7 +6,7 @@ var fs = require('fs');
 var data = fs.readFileSync('data.json');
 var rideArray = JSON.parse(data);
 var serveStatic = require('serve-static');
-
+var port = process.env.port || 3000;
 
 
 app.use('/api/v1', serveStatic(path.join(__dirname, 'views')))
@@ -23,7 +23,9 @@ app.get('/api/v1/rides/:id', getRideOffers=(req, res)=>{
 
 
 
-app.listen(3000)
+
+
+app.listen(port);
 
 console.log("Way to go server!")
 
