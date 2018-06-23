@@ -1,5 +1,4 @@
 {
-  "start": "node index.js",
   "name": "rideapp",
   "version": "1.0.0",
   "main": "index.js",
