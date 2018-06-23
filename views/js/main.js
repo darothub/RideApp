@@ -1,9 +1,8 @@
 var user = document.getElementById("user");
 var password = document.getElementById("password")
-var attempt = 3
+var attempt = 3;
 
-var validate=()=>{
-        
+var validate = function(){
     if(user.value =="darot" && password.value == "Youngster1"){
         window.open('http://127.0.0.1:5500/profile.html')
         return false
