@@ -1,0 +1,194 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../img/landing2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 650px;
+    height: 500px;
+}
+
+header{
+    width:5%;
+}
+
+
+nav {
+    background-color:black;
+    margin:0;
+    width:207%;
+    
+    
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 50px
+}
+
+nav > ul > li > a{
+    background-color: black;
+    display: block;
+    color: whitesmoke;
+    line-height: 2em;
+    text-decoration: none;
+    padding:.5em .5em;
+}
+
+.services{
+    position: relative;
+    display: inline-block;
+}
+
+.subserve {
+    display: none;
+    position: absolute;
+    background-color:white;
+    line-height: 2em;
+    min-width: 15em;
+    box-shadow: 0px 8px 16px 0px rgba(177, 170, 170, 0.2);
+    z-index: 1;
+}
+
+.subserve a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.subserve a:hover {
+    background-color: grey;
+    display:block;
+    color: black;
+}
+.services:hover .subserve{
+    display: inline;
+    opacity: .5;
+    font-weight: bold;
+}
+
+
+a:active{
+    background-color: beige;
+    color: black;
+}
+
+.container{
+    width: 350px;
+    height: 350px;
+    margin-top:50px auto;
+    padding: 20px;
+    background: linear-gradient(aqua, grey);
+    border: 3px solid grey;
+    
+    
+}
+
+.container h1{
+    text-align: center;
+    font-size: 16px;
+    color: blue;
+}
+
+.container h4{
+    text-align: center;
+    font-size: 16px;
+}
+.container input{
+    padding:10px 0 10px 0;
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.container label{
+    padding:5px;
+}
+
+.container button{
+    margin-top:5px;
+    padding:10px;
+    background-color: darkkhaki;
+    width:100%;
+}
+
+.container button:hover{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    width:100px;
+    margin: 0 auto;
+    text-align: center;
+    color: grey;
+}
+
+@media screen and (max-width:959px){
+    .container{
+        width:54%;
+    }
+    nav {
+        width: 207%;
+    }
+    footer{
+        width:100%;
+    }
+    
+}
+@media screen and (max-width:640px){
+    .container{
+        width:45%;
+    }
+    nav {
+        width: 100%
+    }
+    nav ul li {
+        width: 20%
+    }
+
+    .subserve {
+        width:100%;
+    }
+    .subserve li{
+        width:50%;
+    }
+    footer{
+        width:100%;
+    }
+
+    
+}
+
+@media screen and (max-width:320px){
+    .container{
+        width:45%;
+    }
+    nav {
+        width: 100%
+    }
+    nav ul li {
+        width: 40%;
+    }
+
+    .subserve {
+        width:100%;
+    }
+    .subserve li{
+        width:50%;
+    }
+    footer{
+        width:70%;
+    }
+
+    
+}

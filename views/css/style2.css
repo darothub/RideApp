@@ -1,0 +1,216 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-image: url("../img/reg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 690px;
+    height: 500px;
+}
+
+nav {
+    background-color:black;
+    margin:0;
+    width:200%;
+    
+    
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 50px
+}
+
+nav > ul > li > a{
+    background-color: black;
+    display: block;
+    color: whitesmoke;
+    line-height: 2em;
+    text-decoration: none;
+    padding:.5em .5em;
+}
+
+.services{
+    position: relative;
+    display: inline-block;
+}
+
+.subserve {
+    display: none;
+    position: absolute;
+    background-color:white;
+    line-height: 2em;
+    min-width: 15em;
+    box-shadow: 0px 8px 16px 0px rgba(177, 170, 170, 0.2);
+    z-index: 1;
+}
+
+.subserve a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.subserve a:hover {
+    background-color: grey;
+    display:block;
+    color: black;
+}
+.services:hover .subserve{
+    display: inline;
+    opacity: .5;
+    font-weight: bold;
+}
+
+
+a:active{
+    background-color: aquamarine;
+    color: black;
+}
+
+
+.container{
+    width: 450px;
+    height: 610px;
+    margin-top: 30px;
+    margin-left:100px;
+    background: linear-gradient(aqua, grey);
+    opacity: .9;
+    border: 3px solid grey;   
+}
+
+.container #heading{
+    padding: 1px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+
+.container #fname, #lname{
+    width: 223px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid grey;
+    float: left;
+    
+}
+.container #uname{
+    width: 428px;
+    padding: 10px;
+    height: 30px;
+    margin-bottom: 0px;
+    border: 1px solid grey;
+}
+.contactinfo{
+    margin-top:40px;
+    margin-bottom: px;
+    width:100%;
+}
+.contactinfo input{
+    width: 428px;
+    padding: 10px;
+    border: 1px solid grey;
+    height: 30px;
+    
+}
+
+.email{
+    margin-top:20px;
+    margin-bottom: 10px;
+    width:100%;
+}
+
+.email input{
+    width: 428px;
+    padding: 10px;
+    border: 1px solid grey;
+    margin-top:-1px;
+    height: 30px;
+    
+}
+
+
+.container button{
+    margin-top:5px;
+    padding:10px;
+    background-color: darkkhaki;
+    width:100%;
+}
+
+.container button:hover{
+    background-color: black;
+    color: white;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus  {
+    background-color: #ddd;
+    outline: none;
+}
+
+@media screen and (max-width:959px){
+    .container{
+        width:450px;
+    }
+    .container #heading{
+        padding: 1px;
+    }
+    nav {
+        width: 207%;
+    }
+}
+
+@media screen and (max-width:640px){
+    .container{
+        width:450px;
+    }
+    .container #heading{
+        padding: 1px;
+    }
+
+    nav {
+        width: 100%
+    }
+    nav ul li {
+        width: 20%
+    }
+
+    .subserve {
+        width:100%;
+    }
+    .subserve li{
+        width:50%;
+    }
+}
+@media screen and (max-width:320px){
+    .container{
+        width:400px;
+        height:641px;
+    }
+    .container #heading{
+        padding: 1px;
+    }
+
+    nav {
+        width: 100%
+    }
+    nav ul li {
+        width: 40%;
+    }
+
+    .subserve {
+        width:100%;
+    }
+    .subserve li{
+        width:50%;
+    }
+
+}

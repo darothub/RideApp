@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>MyRideApp</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+     <!--HTML5 Shiv-->
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+        
+    <nav>
+        <ul>
+            <li><a href ="index.html">Home</a></li>
+
+            <li class="services">
+                <a href ="#">Services</a>
+                <ul class="subserve">
+                        <li><a href="rideoffer.html">Join a ride</a></li>
+                        <li><a href="rideoffer.html">Ride offers</a></li>
+                </ul>
+            </li>
+            <li><a href ="#">About us</a></li>
+            <li><a href ="#">Career</a></li>
+            <li><a href ="#">Contact us</a></li>
+            <li><a href ="Registration.html">Sign Up</a></li>
+        </ul>
+    </nav>
+    <header>
+      <img src="img/logo.gif" alt="logo" />
+    </header>
+    
+    <section class="container"> 
+        <h1>EXISTING USER LOGIN HERE</h1>
+        <div >
+            <form>
+                <Label>Username/Email address</Label><br/>
+                <input type="text" id="user" placeholder="Username/Email" required aria-required="true"/><br/>
+                <Label>Password</Label><br/>
+                <input type="password" id="password" placeholder="*****" required aria-required="true"/><br/>
+                <button type="submit" onclick="validate()"> Log in </button>
+            </form>
+            <hr> 
+            <h4>New user?</h4> <a href="Registration.html"><button>Sign up here</button></a>
+            
+        </div>
+    </section>
+
+    <footer>&copy RideMyWay 2018</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
