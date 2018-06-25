@@ -33,20 +33,20 @@
           <h4>Fill the form below to register</h4>
         </div>
         <form class="regform" id="regisform" method ="POST" action="/api/v1/Registration">
-            <input type="text" id="fname" name="fname" placeholder="First Name" required aria-required="true"/>
-            <input type="text" id="lname" name ="lname" placeholder="Last Name" required aria-required="true"/><br/>
-            <input type="text" placeholder="Username"  id="uname" /> <br />
+            <input type="text" id="fname" name="firstname" placeholder="First Name" required aria-required="true"/>
+            <input type="text" id="lname" name ="lastname" placeholder="Last Name" required aria-required="true"/><br/>
+            <input type="text" placeholder="Username" name="username"  id="uname" /> <br />
         
             <div class="contactinfo">
-                <input type="text"placeholder="Address"  id="address" /> <br />
-                <input type="text" placeholder="City" id="city" required aria-required="true"/> <br />
+                <input type="text"placeholder="Address" name="address"  id="address" /> <br />
+                <input type="text" placeholder="City" id="city" name="city" required aria-required="true"/> <br />
                 <input type="number"placeholder="Phone number"  id="phone" /> <br />
                 
             </div>
             <div class="email">
-                <input type="email" id="email" placeholder="Enter Email Address" required aria-required="true"/> <br />
-                <input type="password" id="password"placeholder="*******" required aria-required="true"> <br />
-                <input type="password"id="rpassword" placeholder="Repeat password" required aria-required="true"> <br />
+                <input type="email" id="email" name="e-mail" placeholder="Enter Email Address" required aria-required="true"/> <br />
+                <input type="password" id="password" name="password"placeholder="*******" required aria-required="true"> <br />
+                <input type="password"id="rpassword" name="repeat-password" placeholder="Repeat password" required aria-required="true"> <br />
             </div>
             <label for="file">Upload Your Drivers' Licence</label><br/>
             <input type="file"> <br />
