@@ -17,7 +17,15 @@ app.use('/api/v1', serveStatic(path.join(__dirname, 'views')))
 
 
 app.post('/api/v1/Registration', urlencodedParser, function(req, res){
-    var bodyF = req.body
+    var password = req.body.password
+    var rpassword = req.body.repeat_password
+    if(password === rpassword){
+        var bodyF = req.body
+    }
+    else{
+        console.log("password does not match")
+    }
+    
     
     res.send(bodyF)
 });
