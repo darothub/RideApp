@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style3.css" type="text/css">
+    <title>Profile Page</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header">
+            
+        </div>
+    </header>
+    
+    <nav class="nav">
+        <div class="firstorder">
+            <ul >
+                <li><a href="#"><img src="img/navline.gif"/></a>
+                    <div class="bg">
+                        <div class="home">
+                            <a href="index.html">Home</a>
+                        </div>
+                    </div>
+                
+                </li>
+            </ul>
+        </div>
+                            <ul class="secondorder">
+                                <li ><span><img src="img/ride.gif"/></span><a href="#" onclick="openOffer()">Offer a ride</a></li>
+                                <li><a href="#">View available offers</a></li>
+                                <li class="alloffers"><span><img src="img/dir1.gif"/></span><a href="#">All ride offers</a>
+                                    <ul class="thirdorder">
+                                            <li><a href="#">Number of rides created</a></li>
+                                            <li><a href="#">Number of rides taken</a></li>
+                                            <li><a href="#">Total rides</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                  
+            
+            
+            </li>
+            
+
+        
+    </nav>
+
+    <section class="modaloffer" id="myoffer">
+        <div class="offerform">
+            <span class="close">&times;</span>
+            <form action="" class="modalform">
+                <input id="name" type="text" placeholder="Name" required/><br/>
+                <input id="present" type="text" placeholder="Current location" required/><br/>
+                <input id="destination" type="text" placeholder="Likely destination" required/><br/>
+                <input id="time" type="date" placeholder="date" required/><br/>
+                <input id="time" type="datetime-local" placeholder="Time" required/><br/>
+                <input id="pnumber" type="tel" placeholder="Mobile Number" required/><br/>
+                <button id="create">Create Ride</button> <button id="cancel">Cancel</button>
+            </form>
+            
+        </div>
+
+    </section>
+    
+<script src="js/offer.js"></script>
+</body>
+</html>

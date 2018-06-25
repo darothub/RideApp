@@ -32,10 +32,11 @@
         <div id="heading">
           <h4>Fill the form below to register</h4>
         </div>
-        <form class="regform" id="regisform">
-            <input type="text" id="fname" placeholder="First Name" required aria-required="true"/>
-            <input type="text" id="lname" placeholder="Last Name" required aria-required="true"/><br/>
+        <form class="regform" id="regisform" method ="POST" action="/api/v1/Registration">
+            <input type="text" id="fname" name="fname" placeholder="First Name" required aria-required="true"/>
+            <input type="text" id="lname" name ="lname" placeholder="Last Name" required aria-required="true"/><br/>
             <input type="text" placeholder="Username"  id="uname" /> <br />
+        
             <div class="contactinfo">
                 <input type="text"placeholder="Address"  id="address" /> <br />
                 <input type="text" placeholder="City" id="city" required aria-required="true"/> <br />
@@ -53,6 +54,6 @@
             <button type="submit" id="">Submit</button>
         </form>
     </section>
-    <script src="Server/model/data.js"></script>
+    <!--<script src="/model/data.js"></script>-->
 </body>
 </html>

@@ -1,10 +1,10 @@
-var express = require('express');
+var submit = document.getElementById('submit');
+var regform = document.getElementById('regisform');
+var userArray =[];
 
 
 const saveData=(e)=>{
-    var submit = document.getElementById('submit');
-    var regform = document.getElementById('regisform');
-    var userArray =[];
+   
     let fnames = document.getElementById('fname').value;
     let lnames = document.getElementById('lname').value;
     let unames = document.getElementById('uname').value;
@@ -38,12 +38,12 @@ const saveData=(e)=>{
     
 
     userArray.push(myData);
-    regform.addEventListener('submit', saveData)
+   
     e.preventDefault();
     return userArray
    
 }
 
+regform.addEventListener('submit', saveData)
 
 
-module.export = saveData;
