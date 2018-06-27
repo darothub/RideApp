@@ -4,7 +4,7 @@
   "description": "",
   "main": "server/index.js",
   "scripts": {
-    "test": "npm test",
+    "test": "npm test/test.js",
     "start": "node server/index.js"
     
   },
