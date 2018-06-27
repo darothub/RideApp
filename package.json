@@ -6,7 +6,6 @@
   "scripts": {
     "test": "mocha",
     "start": "node server/index.js"
-    
   },
   "repository": {
     "type": "git",
@@ -19,6 +18,7 @@
   },
   "homepage": "https://github.com/darothub/RideApp#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mocha": "^5.2.0"
   }
 }
