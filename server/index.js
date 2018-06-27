@@ -4,6 +4,5 @@ const PORT = process.env.PORT || 8080;
 
 app.get('/', (req, res)=> res.send('Hello World!'));
 
-app.listen(PORT, function () {
-    console.log('Way to go server!');
-  });
+const run=()=> console.log("way to go server!")
+app.listen(PORT, run)
