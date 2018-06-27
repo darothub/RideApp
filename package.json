@@ -1,10 +1,10 @@
 {
-  "name": "rideapp2",
+  "name": "rideapp",
   "version": "1.0.0",
   "description": "",
   "main": "server/index.js",
   "scripts": {
-    "start": "npm run index.js"
+    "start": "node server/index.js"
     
   },
   "repository": {
