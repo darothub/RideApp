@@ -1,0 +1,23 @@
+{
+  "name": "rideapp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "npm run index.js"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darothub/RideApp.git"
+  },
+  "author": "Darot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darothub/RideApp/issues"
+  },
+  "homepage": "https://github.com/darothub/RideApp#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
