@@ -4,9 +4,9 @@
   "description": "",
   "main": "server/index.js",
   "scripts": {
-    "test": "mocha test/test.js",
+    "test": "nyc mocha test/test.spec.js",
     "start": "node server/index.js",
-    "coverage": "nyc report -- reporter=text-1cov | coveralls"
+    "coverage": "nyc report -- reporter==text-1cov | coveralls"
   },
   "repository": {
     "type": "git",
