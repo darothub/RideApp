@@ -1,1 +1,2 @@
 repo_token: dnIbDZK2YCTkzCdtkqhPxcopBr8sptBcz
+gem 'coveralls', require: false
