@@ -2,215 +2,197 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
-    background-image: url("../img/reg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 690px;
-    height: 500px;
+    height: 800px;
+    background: linear-gradient(#fec9c9, #ee6e9f); 
+    margin: auto;
 }
-
-nav {
-    background-color:black;
-    margin:0;
-    width:200%;
-    
-    
+.navbar{
+    width:50%;
+    height: 70px;
+    background-color: #6d9d88; 
+    margin:-15px auto;
 }
-
-nav ul{
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li{
-    display: inline-block;
-    list-style-type: none;
-    margin-left: 50px
-}
-
-nav > ul > li > a{
-    background-color: black;
-    display: block;
-    color: whitesmoke;
-    line-height: 2em;
-    text-decoration: none;
-    padding:.5em .5em;
-}
-
-.services{
-    position: relative;
-    display: inline-block;
-}
-
-.subserve {
-    display: none;
-    position: absolute;
-    background-color:white;
-    line-height: 2em;
-    min-width: 15em;
-    box-shadow: 0px 8px 16px 0px rgba(177, 170, 170, 0.2);
-    z-index: 1;
-}
-
-.subserve a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.subserve a:hover {
-    background-color: grey;
-    display:block;
-    color: black;
-}
-.services:hover .subserve{
-    display: inline;
-    opacity: .5;
-    font-weight: bold;
-}
-
-
-a:active{
-    background-color: aquamarine;
-    color: black;
-}
-
-
-.container{
-    width: 450px;
-    height: 700px;
-    margin-top: 30px;
-    margin-left:100px;
-    background: linear-gradient(aqua, grey);
-    opacity: .9;
-    border: 3px solid grey;   
-}
-
-.container #heading{
-    padding: 1px;
-    background-color: grey;
-    color: white;
-    text-align: center;
-}
-
-
-.container #fname, #lname{
-    width: 223px;
-    height: 50px;
-    margin: 0px;
-    padding: 0px;
-    border: 1px solid grey;
+.navleft{
     float: left;
+    width:25%;
+    height: 70px;
+    background-color: #1a1a1a;
+    margin-top:-55px;
+}
+
+.navright{
+    float: right;
+    width:25%;
+    height: 70px;
+    background-color:#6a60a9;
+    margin-top:-55px;
+}
+
+.navin1 ul{
     
-}
-.container #uname{
-    width: 428px;
-    padding: 10px;
-    height: 30px;
-    margin-bottom: 0px;
-    border: 1px solid grey;
-}
-.contactinfo{
-    margin-top:40px;
-    margin-bottom: px;
-    width:100%;
-}
-.contactinfo input{
-    width: 428px;
-    padding: 10px;
-    border: 1px solid grey;
-    height: 30px;
-    
+    background-color: 
 }
 
-.email{
-    margin-top:20px;
-    margin-bottom: 10px;
-    width:100%;
+.navin1 ul li{
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 30px;
+    margin-left: 90px;
 }
-
-.email input{
-    width: 428px;
-    padding: 10px;
-    border: 1px solid grey;
-    margin-top:-1px;
-    height: 30px;
-    
-}
-
-
-.container button{
-    margin-top:5px;
-    padding:10px;
-    background-color: darkkhaki;
-    width:100%;
-}
-
-.container button:hover{
-    background-color: black;
+.navin1 ul li a{
+    text-decoration: none;
     color: white;
 }
-input[type=text]:focus, input[type=password]:focus, input[type=email]:focus  {
-    background-color: #ddd;
-    outline: none;
+.formsec{
+    width:50%;
+    background: #6d9d88;
+    opacity: .7;
+    height: 710px;
+    margin:15px auto;
+    box-shadow: 10px 20px 30px black;
+}
+form{
+    width:90%;
+    margin: auto;
+}
+#fname{
+    float: left;
+    height: 50px;
+    width:49%;
+    margin-top:80px;
+    
+}
+#lname{
+    float: right;
+    height: 50px;
+    width:49%;
+    margin-top:80px;
 }
 
-@media screen and (max-width:959px){
-    .container{
-        width:450px;
+#address{
+    width:100%;
+    height: 50px;
+    margin-top: 20px;
+}
+#country{
+    width:100%;
+    height: 50px;
+    margin-top: 20px;
+}
+#email{
+    width:100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#username{
+    width:100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#password{
+    float: left;
+    height: 50px;
+    width:49%;
+    margin-top:20px;
+    
+}
+#rpassword{
+    float: right;
+    height: 50px;
+    width:49%;
+    margin-top:20px;
+    margin-right: -5px;
+    
+    
+}
+
+.line{
+    
+    height: 10px;
+    background: white;
+    width:111%;
+    margin-left:-34px;
+}
+.line2{
+    height: 1px;
+    background: white;
+    width:100%;
+    margin-top: 150px;
+}
+.line3{
+    height: 1px;
+    background: white;
+    width:100%;
+    margin-top: 20px;
+}
+.btn{
+    width: 100%;
+    margin-top: 90px;
+}
+button{
+    width: 101%;
+    margin: 5px auto;
+    height: 50px;
+    padding: 10px;
+    background-color: #1a1a1a;
+    color: white;
+    
+}
+.navin1 ul li a:hover{
+    line-height: 1.5em;
+}
+button:hover{
+    background-color: #6a60a9;
+}
+
+
+
+@media screen and (max-width:800px){
+    .formsec, .navbar{
+        width:50%
     }
-    .container #heading{
-        padding: 1px;
+    .navleft, .navright{
+        width:25%
     }
-    nav {
-        width: 207%;
+    form{
+        width: 90%;
     }
+    #fname, #lname{
+        width:48%
+    }
+
+    
+
+   
 }
 
 @media screen and (max-width:640px){
-    .container{
-        width:450px;
+    .formsec, .navbar{
+        width:50%
     }
-    .container #heading{
-        padding: 1px;
+    .navleft, .navright{
+        width:25%
+    }
+    form{
+        width: 90%;
+    }
+    #fname, #lname{
+        width:48%
     }
 
-    nav {
-        width: 100%
-    }
-    nav ul li {
-        width: 20%
-    }
+    
 
-    .subserve {
-        width:100%;
-    }
-    .subserve li{
-        width:50%;
-    }
+   
 }
 @media screen and (max-width:320px){
-    .container{
-        width:400px;
-        height:641px;
+    .formsec, .navbar{
+        width:50%
     }
-    .container #heading{
-        padding: 1px;
-    }
-
-    nav {
-        width: 100%
-    }
-    nav ul li {
-        width: 40%;
+    .navleft, .navright{
+        width:25%
     }
 
-    .subserve {
-        width:100%;
-    }
-    .subserve li{
-        width:50%;
-    }
 
 }

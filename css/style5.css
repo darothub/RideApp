@@ -1,0 +1,165 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    height: 900px;
+    background: linear-gradient(#fec9c9, #6a60a9); 
+    margin: auto;
+}
+
+.navbar{
+    width:10%;
+    height: 70px;
+    background-color: #6d9d88; 
+    margin:-15px auto;
+}
+.navleft{
+    float: left;
+    width:45%;
+    height: 70px;
+    background-color:#ee6e9f;
+    margin-top:-55px;
+    
+}
+.navleft .arrivals a, .navright .departures a{
+    text-decoration: none;
+    color:white;
+}
+
+.navright{
+    float: right;
+    width:45%;
+    height: 70px;
+    background-color:#1a1a1a;
+    margin-top:-55px;
+}
+
+.subnavleft{
+    width:100%;
+    height: 820px;
+    background-color: #dadbdb;
+    margin-top:-20px;
+    opacity: .5;
+}
+.lineleft{
+    height: 10px;
+    background:black;
+    width:100%;
+    margin-top: -2px;
+    
+}
+.navleft .arrivals{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.arrivals h3{
+    color: white;
+    margin-top: 10px;
+}
+
+.subnavright{
+    width:100%;
+    height: 820px;
+    background-color: #fbd14b;
+    margin-top: 80px;
+    opacity: .5;
+}
+
+.lineright{
+    float: right;
+    height: 10px;
+    background:#6a60a9;
+    width:100%;
+    margin-top: -2px;
+    
+}
+.navleft .departures{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.departures h3{
+    float: right;
+    margin-right: 10px;
+    color: white;
+    margin-top: 30px;
+}
+
+.a{
+    
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 5px;
+    text-align: left;
+    
+}
+.a a, .a h4{
+    font-size: 12px;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.b{
+    margin-left: 20px;
+    margin-top: -170px;
+    text-align: center;
+}
+
+.b a, .b h4{
+    font-size: 12px;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 5px;
+}    
+
+.c{
+    float: right;
+    margin-top: -160px;
+    text-align: right;
+    margin-right: 5px;
+}
+.c a, .c h4{
+    padding: 5px;
+    font-size:12px;
+    text-decoration: none;
+    padding:5px;
+}
+
+
+
+.subnavbar input{
+    width:80%;
+    margin-top: 80px;
+    height: 30px;
+    margin-left: 10px;
+    
+}
+.subnavbar button{
+    padding: 5px;
+    height:50px;
+    margin-left: 10px;
+    margin-left: 13px;
+    width: 80%
+}
+
+.linkup{
+    display: block;
+    font-size:14px;
+   
+    margin-top:10px;
+}
+
+.linkup>a{
+    position: absolute;
+    color:white;
+    left: 640px;
+    top: 15px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+

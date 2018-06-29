@@ -8,51 +8,51 @@
     <title>Ride | Sign up</title>
 </head>
 <body>
-        <nav>
-                <ul>
-                    <li><a href ="index.html">Home</a></li>
-        
-                    <li class="services">
-                        <a href ="#">Services</a>
-                        <ul class="subserve">
-                                <li><a href="rideoffer.html">Join a ride</a></li>
-                                <li><a href="#">Ride offers</a></li>
-                        </ul>
-                    </li>
-                    <li><a href ="#">About us</a></li>
-                    <li><a href ="#">Career</a></li>
-                    <li><a href ="#">Contact us</a></li>
-                </ul>
-            </nav>
-            <div class="header">
-              <img src="img/logo.gif" alt="logo" />
+    <div class="navbar">
+        <nav class="navin1">
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="allrides.html">Join a ride</a></li>
+            </ul>
+        </nav>       
+    </div>
+    <div class="navleft">
+               
+    </div>
+    <div class="navright">
+       
+    </div>
+    
+    <section class= "formsec">
+        <form class="one">
+            <div>
+            <input type="text" id="fname" placeholder="First Name" required>
+            <input type="text" id="lname" placeholder="Last Name" required>
             </div>
             
-    <section class="container">
-        <div id="heading">
-          <h4>Fill the form below to register</h4>
-        </div>
-        <form class="regform" id="regisform">
-            <input type="text" id="fname" placeholder="First Name" required aria-required="true"/>
-            <input type="text" id="lname" placeholder="Last Name" required aria-required="true"/><br/>
-            <input type="text" placeholder="Username"  id="uname" /> <br />
-            <div class="contactinfo">
-                <input type="text"placeholder="Address"  id="address" /> <br />
-                <input type="text" placeholder="City" id="city" required aria-required="true"/> <br />
-                <input type="number"placeholder="Phone number"  id="phone" /> <br />
-                
+            <div class="line"></div>
+            <div class="line2"></div>
+            
+            <div class="two">
+            <input type="text" id="address" placeholder="Residential address" required>
+            <input type="text" id="country" placeholder="Country" required>
+            <input type="email" id="email" placeholder="Email address" required>
             </div>
-            <div class="email">
-                <input type="email" id="email" placeholder="Enter Email Address" required aria-required="true"/> <br />
-                <input type="password" id="password"placeholder="*******" required aria-required="true"> <br />
-                <input type="password"id="rpassword" placeholder="Repeat password" required aria-required="true"> <br />
+            
+            <div class="line3"></div>
+        
+            <div class="three">
+            <input type="text" id="username" placeholder="Username/Email address" required>
+            <input type="password" id="password" placeholder="Password" required> 
+            <input type="password" id="rpassword" placeholder="Repeat Password" required>
             </div>
-            <label for="file">Upload Your Drivers' Licence</label><br/>
-            <input type="file"> <br />
-            <button type="submit">Cancel</button>
-            <button type="submit" id="">Submit</button>
+            
+            <div class="btn">
+            <button>SUBMIT</button> <button>CANCEL</button>
+            </div>
         </form>
     </section>
-    <script src="Server/model/data.js"></script>
+    
 </body>
 </html>
