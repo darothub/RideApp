@@ -32,24 +32,27 @@
         <div id="heading">
           <h4>Fill the form below to register</h4>
         </div>
-        <form class="regform">
+        <form class="regform" id="regisform">
             <input type="text" id="fname" placeholder="First Name" required aria-required="true"/>
             <input type="text" id="lname" placeholder="Last Name" required aria-required="true"/><br/>
+            <input type="text" placeholder="Username"  id="uname" /> <br />
             <div class="contactinfo">
                 <input type="text"placeholder="Address"  id="address" /> <br />
+                <input type="text" placeholder="City" id="city" required aria-required="true"/> <br />
                 <input type="number"placeholder="Phone number"  id="phone" /> <br />
-                <input type="text" placeholder="City" id="city"required aria-required="true"/> <br />
+                
             </div>
             <div class="email">
-                <input type="email"placeholder="Enter Email Address" required aria-required="true"/> <br />
-                <input type="password"/placeholder="*******" required aria-required="true"> <br />
-                <input type="password"/placeholder="Repeat password" required aria-required="true"> <br />
+                <input type="email" id="email" placeholder="Enter Email Address" required aria-required="true"/> <br />
+                <input type="password" id="password"placeholder="*******" required aria-required="true"> <br />
+                <input type="password"id="rpassword" placeholder="Repeat password" required aria-required="true"> <br />
             </div>
             <label for="file">Upload Your Drivers' Licence</label><br/>
-            <input type="file" required aria-required="true"> <br />
+            <input type="file"> <br />
             <button type="submit">Cancel</button>
-            <button type="submit">Submit</button>
+            <button type="submit" id="">Submit</button>
         </form>
     </section>
+    <script src="Server/model/data.js"></script>
 </body>
 </html>

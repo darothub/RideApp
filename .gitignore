@@ -1,0 +1,4 @@
+node_modules/*
+.coverall.yml
+dist/
+server/
