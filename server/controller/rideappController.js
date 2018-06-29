@@ -7,8 +7,6 @@ const rides = [{
   request: [],
 }];
 
-const getAllRides = (req, res) => res.send(rides);
-
 const createRide = (req, res) => {
   if (req.body === {}) {
     res.send('Error: You have entered nothing');
@@ -16,6 +14,8 @@ const createRide = (req, res) => {
   rides.push(req.body);
   res.sendStatus(201);
 };
+
+const getAllRides = (req, res) => res.send(rides);
 
 const func = { createRide, getAllRides };
 
