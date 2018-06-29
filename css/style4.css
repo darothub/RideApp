@@ -82,15 +82,15 @@ nav a{
     width: 200px;
     height:200px;
     float: left;
-    background-color: #353637;
+    background-color: white;
 }
 .sub-body{
     margin-top:90px;
-    color: gray;
+    color: black;
     font-size: 12px;
-    background-image: url('../img/landing2.jpg');
+    background-image: url('../img/logo.gif')rgba(0,0,0,0.5);
     background-size: contain;
-    background-position: ;
+    background-position-x: center;
 }
 
 
