@@ -62,7 +62,37 @@ nav a{
     background-size: cover;
   }
 
+<<<<<<< HEAD
 #search{
+=======
+#body-container{
+    width: 70%;
+    height: 418px;
+    float: right;
+    padding: 30px;
+    background: #cccccc;
+    margin-top: -175px;
+}
+
+.body-container{
+    position: relative;
+    width: 200px;
+    height:200px;
+    float: left;
+    background-color: white;
+}
+.sub-body{
+    margin-top:90px;
+    color: black;
+    font-size: 12px;
+    background-image: url('../img/logo.gif')rgba(0,0,0,0.5);
+    background-size: contain;
+    background-position-x: center;
+}
+
+
+ #search{
+>>>>>>> 240aa5d0ecb34603d1598c47e067d0db87d5de14
     padding: 30px;
     color:#ffff;
     background: #353637;
