@@ -35,9 +35,19 @@ const getRideById = (req, res) => {
   });
 };
 
+const postRideRequest = (req, res) => {
+  rides.forEach((i) => {
+    if (i.rideId === req.body.id) {
+      i.request.push(req.body.request);
+    }
+  });
+  res.sendStatus(201);
+};
+
 const func = {
   getAllRides,
   createRide,
   getRideById,
+  postRideRequest,
 };
 export default func;
