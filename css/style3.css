@@ -16,6 +16,7 @@ nav{
     width: 100%;
     height: 200px;
     line-height: 4em;
+    background-color: white;
 }
 
 .firstorder{
@@ -40,7 +41,7 @@ nav{
 .firstorder li{
     
     float: right;
-    margin-top: 0px;
+    margin-top: -10px;
     list-style-type: none;
     color:white;
 }
@@ -63,9 +64,9 @@ nav{
 
 .secondorder{
     position: absolute;
-    top:0px;
+    top:-18px;
     width:85%;
-    height: 50px;
+    height: 60px;
     background-color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:white;
@@ -147,10 +148,10 @@ nav{
     position: absolute;
     z-index: 1;
     padding-top: 40px;
-    left:0px;
-    top:60px;
-    width:300px;
-    height:350px;
+    left:350px;
+    top:150px;
+    width:600px;
+    height:400px;
     background-color: aqua;
     border-radius: 2px;
     box-shadow: 0 5px 8px rgba(0,0,0,0.2), 0 7px 20px rgba(0,0,0,0.2);
@@ -168,9 +169,10 @@ nav{
 
 .offerform input{
     width: 90%;
-    height: 20px;
+    height: 30px;
     padding: 7px;
     margin-top: 5px;
+    margin-left: 10px;
 }
 
 .close {
@@ -189,7 +191,8 @@ nav{
     
     padding: 5px;
     margin-top: 3px;
-    width:48%;
+    margin-left: 7px;
+    width:46%;
 }
 #create{
     background-color: greenyellow;

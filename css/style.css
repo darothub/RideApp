@@ -134,8 +134,10 @@ footer{
 }
 
 @media screen and (max-width:959px){
+   
     .container{
         width:54%;
+        margin-left: 200px
     }
     nav {
         width: 207%;
@@ -170,6 +172,7 @@ footer{
 }
 
 @media screen and (max-width:320px){
+    
     .container{
         width:45%;
     }

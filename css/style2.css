@@ -3,7 +3,7 @@ body{
     padding: 0px;
     margin: 0px;
     height: 800px;
-    background: linear-gradient(#fec9c9, #ee6e9f); 
+    background: linear-gradient(#fec9c9,white); 
     margin: auto;
 }
 .navbar{
@@ -24,7 +24,7 @@ body{
     float: right;
     width:25%;
     height: 70px;
-    background-color:#6a60a9;
+    background-color:#1a1a1a;
     margin-top:-55px;
 }
 
@@ -149,9 +149,9 @@ button:hover{
 
 
 
-@media screen and (max-width:800px){
-    .formsec, .navbar{
-        width:50%
+@media screen and (max-width:959px){
+    .navbar{
+        width:100%
     }
     .navleft, .navright{
         width:25%
@@ -169,7 +169,7 @@ button:hover{
 }
 
 @media screen and (max-width:640px){
-    .formsec, .navbar{
+    .formsec input{
         width:50%
     }
     .navleft, .navright{
@@ -179,12 +179,9 @@ button:hover{
         width: 90%;
     }
     #fname, #lname{
-        width:48%
+        width:40%
     }
-
-    
-
-   
+  
 }
 @media screen and (max-width:320px){
     .formsec, .navbar{

@@ -4,41 +4,103 @@ body{
     padding: 0px;
     margin: 0px;
     height: 900px;
-    background: linear-gradient(#fec9c9, #6a60a9); 
+    background-color: white;
     margin: auto;
+}
+
+nav {
+    background-color:black;
+    margin:0;
+    width:207%;
+    height:70px;
+    
+    
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 50px
+}
+
+nav > ul > li > a{
+    background-color:
+    display: block;
+    color: whitesmoke;
+    line-height: 2em;
+    text-decoration: none;
+    padding:.5em .5em;
+}
+
+.services{
+    position: relative;
+    display: inline-block;
+}
+
+.subserve {
+    display: none;
+    position: absolute;
+    background-color:white;
+    line-height: 2em;
+    min-width: 15em;
+    box-shadow: 0px 8px 16px 0px rgba(177, 170, 170, 0.2);
+    z-index: 1;
+}
+
+.subserve a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.subserve a:hover {
+    background-color: grey;
+    display:block;
+    color: black;
+}
+.services:hover .subserve{
+    display: inline;
+    opacity: .5;
+    font-weight: bold;
 }
 
 .navbar{
     width:10%;
     height: 70px;
-    background-color: #6d9d88; 
+    background-color: lightgrey; 
     margin:-15px auto;
 }
 .navleft{
     float: left;
     width:45%;
     height: 70px;
-    background-color:#ee6e9f;
+    background-color:lightgrey;
     margin-top:-55px;
     
 }
 .navleft .arrivals a, .navright .departures a{
     text-decoration: none;
-    color:white;
+    color:black;
 }
 
 .navright{
     float: right;
     width:45%;
     height: 70px;
-    background-color:#1a1a1a;
+    background-color:lightgray;
     margin-top:-55px;
 }
 
 .subnavleft{
     width:100%;
     height: 820px;
-    background-color: #dadbdb;
+    background-color: lightgray;
     margin-top:-20px;
     opacity: .5;
 }
@@ -54,14 +116,14 @@ body{
     margin-left: 10px;
 }
 .arrivals h3{
-    color: white;
+    color: black;
     margin-top: 10px;
 }
 
 .subnavright{
     width:100%;
     height: 820px;
-    background-color: #fbd14b;
+    background-color:lightgray;
     margin-top: 80px;
     opacity: .5;
 }
@@ -69,7 +131,7 @@ body{
 .lineright{
     float: right;
     height: 10px;
-    background:#6a60a9;
+    background:black;
     width:100%;
     margin-top: -2px;
     
@@ -160,6 +222,19 @@ body{
     font-size: 16px;
 }
 
+.navright .bottom{
+    width:100%;
+    height:100px;
+    margin:10px auto;
+    background-color: black;
+}
+
+.navleft .bottomleft{
+    width:100%;
+    height:100px;
+    margin:10px auto;
+    background-color: black;
+}
 
 
 
