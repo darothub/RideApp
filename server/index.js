@@ -14,6 +14,8 @@ app.get('/api/v1', router);
 
 app.post('/api/v1/rides', router);
 
+app.get('/api/v1/rides', router);
+
 const run = () => console.log('way to go server!');
 
 app.listen(PORT, run);

@@ -15,6 +15,11 @@ const createRide = (req, res) => {
   res.sendStatus(201);
 };
 
-const func = { createRide };
+
+const getAllRides = (req, res) => res.send(rides);
+
+const func = { createRide, getAllRides };
+
+
 
 export default func;
