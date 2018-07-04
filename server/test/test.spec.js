@@ -39,3 +39,18 @@ describe('API endpoints test', () => {
     });
   });
 });
+
+describe('API endpoints test', () => {
+  describe('get rider by ID /api/v1/ride/:id', () => {
+    it('rider with the id equal 0', (done) => {
+      chai
+        .request(server)
+        .get('/api/v1/ride/0')
+        .end((err, res) => {
+          expect(res.status).to.equal(404);
+          expect(res.body).to.equal({ message: 'ride not found' });
+        });
+      done();
+    });
+  });
+});
