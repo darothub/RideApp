@@ -22,20 +22,21 @@ const rides = [{
 const getAllRides = (req, res) => { res.status(200).send({ data: rides }); };
 
 const createRide = (req, res) => {
-  if (req.body === {}) {
-    return res.status(400).send({ message: 'Your request is empty' });
+  if (req.body) {
+    rides.push(req.body);
+    res.status(201).send({ message: 'Your request has been created' });
   }
-  rides.push(req.body);
-  return res.status(201).send({ message: 'Your request has been created' });
+  res.end();
 };
 
 const getRideById = (req, res) => {
   rides.forEach((driver) => {
-    if (driver.rideId === req.params.id) {
-      return res.status(200).json('Success!', driver);
+    if (driver.rideId !== req.params.id) {
+      res.status(404).json('Success!');
     }
-    return res.status(404).json('An error occured');
+    res.send(driver);
   });
+  res.end();
 };
 
 const controllers = {

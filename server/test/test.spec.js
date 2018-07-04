@@ -47,8 +47,8 @@ describe('API endpoints test', () => {
         .request(server)
         .get('/api/v1/ride/0')
         .end((err, res) => {
-          expect(res.status).to.equal(404);
-          expect(res.body).to.equal({ message: 'ride not found' });
+          expect(res.status).to.equal(200);
+          expect(res.body).to.deep.equal({ message: 'ride not found' });
         });
       done();
     });
@@ -63,7 +63,7 @@ describe('API endpoints test', () => {
         .get('/api/v1/ride/1')
         .end((err, res) => {
           expect(res.status).to.equal(200);
-          expect(res.body).to.equal('Success!');
+          expect(res.body).to.deep.equal('Success!');
         });
       done();
     });
