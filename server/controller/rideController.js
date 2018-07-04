@@ -30,7 +30,7 @@ const createRide = (req, res) => {
 const getRideById = (req, res) => {
   rides.forEach((i) => {
     if (i.rideId === req.params.id) {
-      res.send(i);
+      res.send.json(i);
     }
   });
 };
@@ -39,5 +39,6 @@ const func = {
   getAllRides,
   createRide,
   getRideById,
+  rides,
 };
 export default func;
