@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/api/v1', (req, res) => {
-  res.status(200).json('Home page!');
+  res.status(200).send({ message: 'Home page!' });
 });
 
 app.post('/api/v1/rides', router);
