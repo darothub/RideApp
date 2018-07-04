@@ -32,7 +32,8 @@ const createRide = (req, res) => {
 const getRideById = (req, res) => {
   rides.forEach((driver) => {
     if (driver.rideId === req.params.id) {
-      res.status(200).send({ data: driver });
+      res.status(200).send('Success!');
+      res.send(driver);
     }
   });
 };

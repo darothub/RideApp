@@ -54,3 +54,18 @@ describe('API endpoints test', () => {
     });
   });
 });
+
+describe('API endpoints test', () => {
+  describe('get rider by ID /api/v1/ride/:id', () => {
+    it('rider with the id equal 1', (done) => {
+      chai
+        .request(server)
+        .get('/api/v1/ride/1')
+        .end((err, res) => {
+          expect(res.status).to.equal(200);
+          expect(res.body).to.equal('Success!');
+        });
+      done();
+    });
+  });
+});
