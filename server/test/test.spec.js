@@ -112,5 +112,6 @@ describe('API root path /api/v1/ride/:id/request', () => {
       .catch((error) => {
         console.log(error);
       });
+
   });
 });
