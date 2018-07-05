@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/api/v1', (req, res) => {
-  res.status(200).json('Home page!');
+  res.status(200).json({ message: 'Home page!' });
 });
 
 app.post('/api/v1/rides', router);
@@ -19,6 +19,8 @@ app.post('/api/v1/rides', router);
 app.get('/api/v1/rides', router);
 
 app.get('/api/v1/ride/:id', router);
+
+app.post('/api/v1/ride/:id/:request', router);
 
 const run = () => console.log('way to go server!');
 
