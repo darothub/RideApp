@@ -37,10 +37,20 @@ const getRideById = (req, res) => {
   });
 };
 
+const postRideRequest = (req, res) => {
+  rides.forEach((ride) => {
+    if (ride.rideId === req.params.id) {
+      ride.request.push(req.params.request);
+      res.status(201).send({ message: 'Request sent' });
+    }
+  });
+};
+
 const controllers = {
   getAllRides,
   createRide,
   getRideById,
+  postRideRequest,
   rides,
 };
 export default controllers;
